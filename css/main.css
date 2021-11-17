@@ -1,0 +1,1545 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/*navbar style*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 142.57px;
+    background-color: #fff;
+}
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 24px;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    transition: 0.2s all ease-out;
+}
+
+.nav-link:hover{
+    color: #02897A;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo span{
+    color: black;
+    font-size: 30px;
+    margin-left: 16px;
+    font-weight: bold;
+}
+.nav-item button{
+    width: 110px;
+    height: 43px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #02897A;
+    color: #02897A;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+.nav-item .signIn:hover{
+    color: #fff;
+    background-color: #02897A;
+    border: none;
+}
+.nav-item .signUp{
+    color: #fff;
+    background-color: #02897A;
+    border: none; 
+    margin-left: 15px;
+}
+.nav-item .signUp:hover{
+    border: none;
+    background-color: #fff;
+    border: 1px solid #02897A;
+    color: #02897A;
+}
+ 
+
+/*product section style*/
+
+#product .home{
+    width: 78vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+#product .home .welcome {
+    width: 43%;
+    margin-top: 100px;
+}
+#product .home img{
+    width: 50%;
+}
+#product .home .welcome h1{
+    font-size: 40px;
+    font-weight: bold;
+    width: 80%;
+}
+#product .home .welcome p{
+    line-height: 25px;
+    margin-top: 18px;
+}
+#product .home .welcome .buttons{
+    margin-top: 50px;
+    display: flex;
+    align-items:  center;
+}
+#product .home .welcome .buttons .started{
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    background: #02897A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.2s all linear;
+}
+#product .home .welcome .buttons .playVideo{
+    color: #02897A;
+    font-weight: 600;
+    margin-left: 30px;
+    text-decoration: underline;
+    transition: 0.2s all linear;
+}
+#product .home .welcome .buttons .playVideo:hover{
+    text-decoration: none;
+}
+
+
+#product h2{
+    margin: 100px auto;
+    text-align: center;
+    font-size: 32px;
+    width: 490px;
+}
+#product .wrapper {
+    width: 85vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#product .wrapper .custIcon{
+    width: 20%;
+    padding: 15px;
+}
+#product .wrapper .custIcon h3{
+    margin-top: 10px;
+}
+#product .wrapper .custIcon p{
+    margin-top: 15px;
+    line-height: 23px;
+}
+.signUpNow{
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    background: #02897A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.2s all linear;
+    margin: 30px auto;
+}
+
+/*customers section style */
+
+#customers .managment{
+    width: 83vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#customers .managment .managmentInfo{
+    width: 35%;
+}
+#customers .managment .managmentInfo h5{
+    font-size: 16px;
+    margin-top: 15px;
+}
+#customers .managment .managmentInfo h3{
+    font-size: 32px;
+    margin-top: 10px;
+}
+#customers .managment .managmentInfo p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+#customers .managment img{
+    width: 45%;
+}
+#customers .customSupport{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83vw;
+    margin: 100px auto;
+}
+#customers .customSupport .customSupportInfo{
+    width: 35%;
+}
+#customers .customSupport .customSupportInfo h5{
+    font-size: 16px;
+}
+#customers .customSupport .customSupportInfo h3{
+    font-size: 32px;
+    margin-top: 10px;
+}
+#customers .customSupport .customSupportInfo .customText{
+    margin-top: 25px;
+    line-height: 23px;
+    width: 83%;
+}
+#customers .customSupport .customSupportInfo .check{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+#customers .customSupport .customSupportInfo .check p{
+    width: 83%;
+    line-height: 23px;
+}
+#customers .customSupport .customImg {
+    width: 45%;
+}
+#customers .collaborative{
+    width: 83vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#customers .collaborative img{
+    width: 45%;
+}
+#customers .container .managmentInfo{
+    width: 35%;
+}
+#customers .container .managmentInfo h5{
+    font-size: 16px;
+    margin-top: 15px;
+}
+#customers .container .managmentInfo h3{
+    font-size: 32px;
+    margin-top: 10px;
+}
+#customers .container .managmentInfo p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+
+/*priceng section style*/
+
+#pricing h2{
+    text-align: center;
+    margin-top: 100px;
+}
+#pricing .pricingText{
+    text-align: center;
+    width: 542px;
+    margin: 16px auto;
+    font-weight: 500;
+    line-height: 23px;
+}
+#pricing .jobsOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 50px auto;
+}
+#pricing .jobsOne .profil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#pricing .leftJob, .rightJob{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pricing .profilOne{
+    border: 2px solid red;
+    background-image: url(../Material/ayo-ogunseinde--_C4UZRpoQc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pricing .profilTwo{
+    border: 2px solid #9d03fc;
+    background-image: url(../Material/bruce-mars-AndE50aaHn4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pricing .profilThree{
+    border: 2px solid #02897A;
+    background-image: url(../Material/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pricing .profilFour{
+    border: 2px solid #4290f5;
+    background-image: url(../Material/rayul-_M6gy9oHgII-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#pricing .profilText{
+    width: 250px;
+    height: 53px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.2);
+    border-radius: 26.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pricing .profilText p{
+    font-size: 17px;
+}
+#pricing .contact{
+    width: 195px;
+}
+
+#pricing .resText{
+    width: 80vw;
+    margin: 140px auto 0px auto;
+    font-size: 40px;
+}
+#pricing .resPar{
+    width: 80vw;
+    margin: 15px auto;
+    text-align: center;
+}
+#pricing .cards{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+#pricing .cards .card{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.2);
+    border-radius: 10px;
+}
+#pricing .cards .card .cardImg{
+    width: 100%;
+    height: 50%;
+    background-image: url(../Material/rayul-_M6gy9oHgII-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#pricing .cards .card .cardInfo{
+    padding: 15px 20px;
+}
+#pricing .cards .card .cardInfo p{
+    margin-top: 10px;
+}
+#pricing .cards .card .cardInfo h3{
+    margin-top: 10px;
+    line-height: 27px;
+}
+#pricing .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 50px auto;
+}
+#pricing .container .table{
+    width: 27%;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 28px;
+    text-align: center;
+}
+#pricing .container .table h3{
+    font-size: 25px;
+}
+#pricing .container .table .money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    margin: 33px auto;
+}
+#pricing .container .table .money h1{
+    font-size: 50px;
+    color: #02897A;
+}
+#pricing .container .table .money .info{
+    text-align: left;
+}
+#pricing .container .table .money .info .index{
+    font-weight: bold;
+    color: #02897A;
+    margin: 0px;
+}
+#pricing .container .table .money .info span{
+    color: #AFAFAF;
+}
+#pricing .container .table p{
+    margin-top: 18px;
+    font-weight: 500;
+}
+#pricing .container .table button{
+    width: 125px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background-color: #02897A;
+    border: none;
+    margin-top: 35px;
+    cursor: pointer;
+    
+}
+#pricing .container .table-center{
+    background-color: #02897A;
+    color: #fff;
+}
+#pricing .container .table-center .money .info .index{
+    color: #fff;
+}
+#pricing .container .table-center .money .info span{
+    color: #fff;
+}
+#pricing .container .table-center .money h1{
+    color: #fff;
+}
+#pricing .container .table-center button{
+    width: 125px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #02897A;
+    background-color: #fff;
+    border: none;
+    margin-top: 35px;
+    cursor: pointer;
+    
+}
+
+/*resources section style*/
+
+#resources .contentText{
+    text-align: center;
+    margin-top: 130px;
+}
+#resources .contentParagraph{
+    text-align: center;
+    margin-top: 10px;
+}
+#resources .discussions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 60px auto;
+}
+#resources .discussions .discuss{
+    width: 27%;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+#resources .discussions .discuss .stars i{
+    color: #F3CD03;
+}
+#resources .discussions .discuss .discussText{
+    line-height: 25px;
+    margin-top: 15px;
+}
+#resources .discussions .discuss .people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54%;
+    margin-top: 10px;
+}
+#resources .discussions .discuss .people .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../Material/ayo-ogunseinde--_C4UZRpoQc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#resources .discussions .discuss .people p{
+    color: #02897A;
+    font-weight: 600;
+}
+#resources .discussions .discuss .people span{
+    font-size: 14px;
+}
+
+#resources .businnes{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: #02897A;
+    padding: 10px 0px 0px 50px;
+    padding-bottom: 25px;
+}
+#resources .businnes .businnesLeft{
+    width: 50%;
+}
+#resources .businnes .businnesLeft .businnesText{
+    color: #fff;
+    font-size: 32px;
+    margin-top: 50px;
+    line-height: 48px;
+}
+#resources .businnes .businnesLeft button{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #02897A;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/*footer section style*/
+footer{
+    padding: 25px 0px;
+}
+footer .footerDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 10px auto;
+}
+footer .footerDiv .branding{
+    width: 18%;
+}
+footer .footerDiv .branding .logoFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+footer .footerDiv .branding .smm{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+footer .footerDiv .branding .smm i{
+    color: #02897A;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer .footerDiv .pages{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .footerDiv .pages a{
+    color: black;
+    margin-top: 12px;
+}
+footer .footerDiv .pages h4{
+    margin-top: 10px;
+}
+
+footer .footerDiv .legall{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .footerDiv .legall a{
+    color: black;
+    margin-top: 12px;
+}
+footer .footerDiv .legall h4{
+    margin-top: 10px;
+}
+footer .footerDiv .callCenter{
+    width: 30%;
+}
+footer .footerDiv .callCenter p{
+    width: 70%;
+    line-height: 23px; 
+    margin-top: 10px;
+}
+footer .footerDiv .callCenter input{
+    border: none;
+    width: 80%;
+    height: 35px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 5px 15px;
+    margin-top: 30px;
+}
+footer .footerDiv .callCenter input:focus{
+    outline: none;
+}
+footer .footerDiv .callCenter .callButton{
+    font-size: 16px;
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    background-color: #02897A;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer .footerDiv p{
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+footer .madeWith{
+    text-align: center;
+    margin-top: 19px;
+    font-size: 16px;
+    color: #22343D;;
+}
+
+/*Responsive web site style*/
+
+/*navbar responsive*/
+
+@media only screen and (max-width: 1070px) {
+    .navbar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding: 1rem 1.5rem;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 4.1rem;
+        flex-direction: column;
+        background-color: #f2fff8;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.4rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+    /*// Inside the Media Query.*/
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+@media only screen and (max-height: 370px) {
+    .nav-item {
+        margin: 1rem 0;
+    }
+}
+@media (min-height: 371px) and (max-height: 500px) {
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+}
+
+/*product section responsive style*/
+
+@media (min-width:0px) and (max-width: 458.9px){
+#product .home{
+    width: 80vw;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    align-items: center;
+}
+#product .home .welcome {
+    width: 95%;
+    margin-top: 3px auto;
+}
+#product .home img{
+    width: 90%;
+    margin-top: 25px;
+}
+#product .home .welcome h1{
+    font-size: 23px;
+    width: 100%;
+}
+#product .home .welcome p{
+    margin-top: 18px;
+    font-size: 13px;
+}
+#product .home .welcome .buttons{
+    margin-top: 15px;
+}
+#product .home .welcome .buttons .started{
+    width: 115px;
+    height: 33px;
+    font-size: 14px;
+}
+#product .home .welcome .buttons .playVideo{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+
+#product h2{
+    font-size: 22px;
+    width: 90vw;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+#product .wrapper {
+    width: 95vw;
+    margin: 20px auto;
+    flex-direction: column;
+}
+#product .wrapper .custIcon{
+    width: 90%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.signUpNow{
+    width: 135px;
+    height: 43px;
+    font-size: 15px;  
+}
+    
+/*    customers section responsive style*/
+    
+#customers .managment{
+    width: 95vw;
+    margin: 60px auto;
+    flex-direction: column;
+}
+#customers .managment .managmentInfo{
+    width: 80%;
+}
+#customers .managment .managmentInfo h5{
+    font-size: 14px;
+}
+#customers .managment .managmentInfo h3{
+    font-size: 22px;
+}
+#customers .managment .managmentInfo p{
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#customers .managment img{
+    width: 85%;
+    margin-top: 35px;
+}
+#customers .customSupport{
+    width: 95vw;
+    margin: 70px auto;
+    flex-direction: column-reverse;
+}
+#customers .customSupport .customSupportInfo{
+    width: 90%;
+    margin: 5px auto;
+    padding-left: 30px;
+}
+#customers .customSupport .customSupportInfo h5{
+    font-size: 14px;
+    text-align: center;
+}
+#customers .customSupport .customSupportInfo h3{
+    font-size: 22px;
+    text-align: center;
+}
+#customers .customSupport .customSupportInfo .customText{
+    margin-top: 15px;
+    line-height: 16px;
+    font-size: 15px;
+    width: 90%;
+}
+#customers .customSupport .customSupportInfo .check{
+    width: 80%;
+    margin-top: 20px;
+}
+#customers .customSupport .customSupportInfo .check p{
+    width: 100%;
+    line-height: 16px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+#customers .customSupport .customImg {
+    width: 85%;
+    margin-top: 30px;
+}
+#customers .collaborative{
+    width: 95vw;
+    margin: 60px auto;
+    flex-direction: column;
+}
+#customers .collaborative img{
+    width: 85%;
+}
+#customers .container .managmentInfo{
+    width: 85%;
+}
+#customers .container .managmentInfo h5{
+    font-size: 14px;
+    margin-top: 15px;
+}
+#customers .container .managmentInfo h3{
+    font-size: 22px;
+    margin-top: 10px;
+}
+#customers .container .managmentInfo p{
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+    
+/*    pricing section responsive style*/
+    
+#pricing h2{
+    text-align: center;
+    margin-top: 80px;
+}
+#pricing .pricingText{
+    width: 80vw;
+    margin: 10px auto;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+#pricing .jobsOne{
+    width: 95%;
+    margin: 50px auto;
+    flex-direction: column;
+}
+#pricing .jobsTwo{
+     flex-direction: column-reverse;
+}
+#pricing .jobsOne .profil{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#pricing .leftJob, .rightJob{
+    width: 90%;
+}
+
+#pricing .profilText{
+    width: 60vw;
+    height: 43px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.2);
+    border-radius: 21px;
+}
+#pricing .profilText p{
+    font-size: 14px;
+}
+#pricing .contact{
+    width: 145px;
+    font-size: 13px;
+}
+
+#pricing .resText{
+    width: 80vw;
+    margin: 110px auto 0px auto;
+    font-size: 40px;
+}
+#pricing .resPar{
+    width: 80vw;
+    margin: 10px auto;
+    font-size: 13px;
+}
+#pricing .cards{
+    width: 95vw;
+    flex-direction: column;
+}
+#pricing .cards .card{
+    width: 80%;
+    height: 300px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+#pricing .container{
+    width: 95vw;
+    flex-direction: column;
+}
+#pricing .container .table{
+    width: 80%;
+    margin-top: 25px;
+}
+    
+/*    resources section responsive style*/
+    
+#resources .contentText{
+    text-align: center;
+    margin-top: 80px;
+}
+#resources .contentParagraph{
+    font-size: 13px;
+    margin-top: 5px;
+}
+#resources .discussions{
+    width: 95vw;
+    flex-direction: column;
+    margin: 40px auto;
+}
+#resources .discussions .discuss{
+    width: 85%;
+    margin-top: 25px; 
+}
+
+#resources .businnes{
+    width: 85%;
+    margin: 100px auto;
+    flex-direction: column;
+}
+#resources .businnes .businnesLeft{
+    width: 80%;
+}
+    #resources .businnes img{
+    margin-top:  25px;   
+}
+#resources .businnes .businnesLeft .businnesText{
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 38px;
+}
+    
+/*    footer responsive style*/
+    
+footer .footerDiv{
+    display: flex;
+    width: 80vw;
+    margin: 10px auto;
+    flex-direction: column;
+}
+footer .footerDiv .branding{
+    width: 60%;
+    margin: 10px auto;
+}
+footer .footerDiv .pages{
+    display: none;
+}
+footer .footerDiv .legall{
+    display: none;
+}
+footer .footerDiv .callCenter{
+    width: 90%;margin: 10px auto;
+}
+footer .footerDiv .callCenter p{
+    width: 100%;
+    line-height: 20px; 
+    margin-top: 10px;
+    font-size: 13px;
+}
+footer .madeWith{
+    font-size: 12px;
+}
+body{
+   overflow-x: hidden;
+}   
+
+}
+
+
+@media  (min-width: 459px) and (max-width: 765.9px) {
+#product .home{
+    width: 80vw;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    align-items: center;
+}
+#product .home .welcome {
+    width: 95%;
+    margin-top: 3px auto;
+}
+#product .home img{
+    width: 80%;
+    margin-top: 25px;
+}
+#product .home .welcome h1{
+    font-size: 30px;
+    width: 100%;
+}
+#product .home .welcome p{
+    margin-top: 18px;
+    font-size: 16px;
+}
+#product .home .welcome .buttons{
+    margin-top: 15px;
+}
+#product .home .welcome .buttons .started{
+    width: 145px;
+    height: 43px;
+    font-size: 16px;
+}
+#product .home .welcome .buttons .playVideo{
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+
+#product h2{
+    font-size: 22px;
+    width: 90vw;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+#product .wrapper {
+    width: 80vw;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#product .wrapper .custIcon{
+    width: 190px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 15px auto;
+}
+.signUpNow{
+    width: 175px;
+    height: 53px;
+    font-size: 17px;  
+}
+    
+/*    customers section responsive style*/
+    
+#customers .managment{
+    width: 95vw;
+    margin: 60px auto;
+    flex-direction: column;
+}
+#customers .managment .managmentInfo{
+    width: 80%;
+}
+#customers .managment .managmentInfo h5{
+    font-size: 16px;
+}
+#customers .managment .managmentInfo h3{
+    font-size: 30px;
+}
+#customers .managment .managmentInfo p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#customers .managment img{
+    width: 85%;
+    margin-top: 35px;
+}
+#customers .customSupport{
+    width: 95vw;
+    margin: 70px auto;
+    flex-direction: column-reverse;
+}
+#customers .customSupport .customSupportInfo{
+    width: 90%;
+    margin: 5px auto;
+    padding-left: 30px;
+}
+#customers .customSupport .customSupportInfo h5{
+    font-size: 16px;
+    text-align: center;
+}
+#customers .customSupport .customSupportInfo h3{
+    font-size: 30px;
+    text-align: center;
+}
+#customers .customSupport .customSupportInfo .customText{
+    margin-top: 15px;
+    line-height: 16px;
+    font-size: 16px;
+    width: 90%;
+}
+#customers .customSupport .customSupportInfo .check{
+    width: 80%;
+    margin-top: 20px;
+}
+#customers .customSupport .customSupportInfo .check p{
+    width: 100%;
+    line-height: 16px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#customers .customSupport .customImg {
+    width: 85%;
+    margin-top: 30px;
+}
+#customers .collaborative{
+    width: 95vw;
+    margin: 60px auto;
+    flex-direction: column;
+}
+#customers .collaborative img{
+    width: 85%;
+}
+#customers .container .managmentInfo{
+    width: 85%;
+}
+#customers .container .managmentInfo h5{
+    font-size: 16px;
+    margin-top: 15px;
+}
+#customers .container .managmentInfo h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#customers .container .managmentInfo p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+    
+/*    pricing section responsive style*/
+    
+#pricing h2{
+    text-align: center;
+    margin-top: 80px;
+}
+#pricing .pricingText{
+    width: 80vw;
+    margin: 10px auto;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+#pricing .jobsOne{
+    width: 85%;
+    margin: 50px auto;
+    flex-direction: column;
+}
+#pricing .jobsTwo{
+     flex-direction: column-reverse;
+}
+#pricing .jobsOne .profil{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#pricing .leftJob, .rightJob{
+    width: 90%;
+}
+
+#pricing .profilText{
+    width: 60vw;
+    height: 43px;
+    border-radius: 21px;
+}
+#pricing .profilText p{
+    font-size: 16px;
+}
+#pricing .contact{
+    width: 175px;
+    font-size: 16px;
+}
+
+#pricing .resText{
+    width: 80vw;
+    margin: 110px auto 0px auto;
+    font-size: 50px;
+}
+#pricing .resPar{
+    width: 80vw;
+    margin: 10px auto;
+    font-size: 16px;
+}
+#pricing .cards{
+    width: 75vw;
+    flex-wrap: wrap;;
+}
+#pricing .cards .card{
+    width: 45%;
+    height: 300px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+#pricing .cards .card .cardInfo{
+    padding: 10px;
+}
+#pricing .cards .card .cardInfo p{
+    margin-top: 7px;
+}
+#pricing .cards .card .cardInfo h3{
+    margin-top: 8px;
+    line-height: 22px;
+}
+#pricing .container{
+    width: 75vw;
+    flex-wrap: wrap;
+}
+#pricing .container .table{
+    width: 45%;
+    margin-top: 25px;
+}
+    
+/*    resources section responsive style*/
+    
+#resources .contentText{
+    text-align: center;
+    margin-top: 80px;
+}
+#resources .contentParagraph{
+    font-size: 16px;
+    margin-top: 8px;
+}
+#resources .discussions{
+    width: 75vw;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+#resources .discussions .discuss{
+    width: 45%;
+    margin-top: 25px; 
+}
+#resources .discussions .discuss .discussText{
+    line-height: 23px;
+    margin-top: 15px;
+}
+#resources .discussions .discuss .people{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-top: 10px;
+}
+#resources .discussions .discuss .people .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../Material/ayo-ogunseinde--_C4UZRpoQc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#resources .discussions .discuss .people p{
+    color: #02897A;
+    font-weight: 600;
+}
+#resources .discussions .discuss .people span{
+    font-size: 14px;
+}
+
+#resources .businnes{
+    width: 75%;
+    margin: 100px auto;
+    padding-bottom: 25px;
+}
+#resources .businnes .businnesLeft{
+    width: 50%;
+}
+    #resources .businnes img{
+    width: 45%;   
+}
+#resources .businnes .businnesLeft .businnesText{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 38px;
+}
+#resources .businnes .businnesLeft button{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #02897A;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+    
+/*    footer responsive style*/
+    
+footer .footerDiv{
+    display: flex;
+    width: 80vw;
+    margin: 10px auto;
+    flex-direction: column;
+}
+footer .footerDiv .branding{
+    width: 40%;
+    margin: 10px auto;
+}
+footer .footerDiv .pages{
+    display: none;
+}
+footer .footerDiv .legall{
+    display: none;
+}
+footer .footerDiv .callCenter{
+    width: 90%;
+    margin: 10px auto;
+}
+footer .footerDiv .callCenter p{
+    width: 100%;
+    line-height: 20px; 
+    margin-top: 10px;
+    font-size: 17px;
+}
+footer .madeWith{
+    font-size: 16px;
+} 
+}
+
+@media  (min-width: 766px) and (max-width: 989px){
+/*product section style*/
+
+#product .home .welcome {
+    width: 43%;
+    margin-top: 100px;
+}
+#product .home img{
+    width: 50%;
+    margin-top: 80px;
+}
+#product .home .welcome h1{
+    width: 90%;
+}
+#product .home .welcome p{
+    line-height: 23px;
+}
+#product .home .welcome .buttons{
+    margin-top: 50px;
+    display: flex;
+    align-items:  center;
+}
+#product .home .welcome .buttons .started{
+    width: 155px;
+    height: 48px;
+    border-radius: 4px;
+    background: #02897A;
+    font-size: 15px;
+}
+#product .home .welcome .buttons .playVideo{
+    font-size: 15px;
+}
+#product .home .welcome .buttons .playVideo:hover{
+    text-decoration: none;
+}
+
+/*customers section style */
+
+#customers .managment{
+    width: 83vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#customers .managment .managmentInfo{
+    width: 35%;
+}
+#customers .managment .managmentInfo h5{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#customers .managment .managmentInfo h3{
+    font-size: 22px;
+    margin-top: 10px;
+}
+#customers .managment .managmentInfo p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#customers .managment img{
+    width: 55%;
+}
+#customers .customSupport{
+}
+#customers .customSupport .customSupportInfo{
+    width: 35%;
+}
+#customers .customSupport .customSupportInfo h5{
+    font-size: 15px;
+}
+#customers .customSupport .customSupportInfo h3{
+    font-size: 22px;
+    margin-top: 10px;
+}
+#customers .customSupport .customSupportInfo .customText{
+    margin-top: 25px;
+    line-height: 20px;
+    width: 83%;
+    font-size: 16px;
+}
+#customers .customSupport .customSupportInfo .check{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+#customers .customSupport .customSupportInfo .check p{
+    width: 83%;
+    line-height: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+#customers .customSupport .customImg {
+    width: 55%;
+}
+#customers .collaborative{
+}
+#customers .collaborative img{
+    width: 55%;
+}
+#customers .container .managmentInfo{
+    width: 35%;
+}
+#customers .container .managmentInfo h5{
+    font-size: 14px;
+    margin-top: 10px;
+}
+#customers .container .managmentInfo h3{
+    font-size: 22px;
+    margin-top: 10px;
+}
+#customers .container .managmentInfo p{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+/*priceng section style*/
+
+#pricing .jobsOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 50px auto;
+}
+#pricing .jobsOne .profil{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#pricing .leftJob, .rightJob{
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pricing .profilText{
+    width: 230px;
+    height: 53px;
+}
+#pricing .cards .card .cardInfo{
+    padding: 10px 20px;
+}
+#pricing .cards .card .cardInfo p{
+    margin-top: 8px;
+}
+#pricing .cards .card .cardInfo h3{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+/*resources section style*/
+
+#resources .discussions .discuss{
+    width: 30%;
+}
+#resources .discussions .discuss .people{
+    width: 90%;
+    margin-top: 10px;
+}
+
+#resources .businnes{
+    padding-bottom: 25px;
+}
+
+}
+
+
+
+
+/*Coder: Jasurbek Abdivaliyev || 17.11.2021*/
+
